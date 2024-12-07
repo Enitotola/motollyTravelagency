@@ -1,0 +1,189 @@
+body{
+    background-color: #db822a;
+}
+        /* Basic styles for the navbar */  
+.navbar {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: #333;  
+    padding: 10px;  
+}  
+.navbar a {  
+    color: white;  
+    text-decoration: none;  
+    padding: 14px 20px;  
+}  
+.navbar a:hover {  
+    background-color: #575757;  
+}  
+.search-container {  
+    display: flex;  
+    align-items: center;  
+}  
+.search-container input[type="text"] {  
+            padding: 6px;  
+            border: none;  
+            border-radius: 4px;  
+}  
+.search-container button {  
+            padding: 6px;  
+            margin-left: 5px;  
+            border: none;  
+            border-radius: 4px;  
+            cursor: pointer;  
+ }  
+.search-container button:hover {  
+            background-color: #575757;  
+            color: white;  
+}
+
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+    background-image: url('background-image.jpg'); /* Replace with your image path */  
+    background-size: cover;  
+    background-position: center;  
+    color: white;  
+}  
+
+/* Center the content on the page */  
+.container {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    height: calc(100vh - 60px); /* Full height minus navbar height */  
+    text-align: center;  
+    padding: 20px;  
+}  
+
+/* Styles for the introduction section */  
+.intro {  
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */  
+    padding: 20px;  
+    border-radius: 10px;  
+    max-width: 600px; /* Max width for the intro box */  
+}  
+
+h1 {  
+    margin-bottom: 20px;  
+}  
+
+/* Styles for the search container */  
+.search-container {  
+    display: flex;  
+    align-items: center;  
+    margin-top: 10px;  
+}  
+.search-container input[type="text"] {  
+    padding: 6px;  
+    border: none;  
+    border-radius: 4px;  
+}  
+.search-container button {  
+    padding: 6px;  
+    margin-left: 5px;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+}  
+.search-container button:hover {  
+    background-color: #575757;  
+    color: white;  
+}
+
+h1, h2 {  
+    color: #2c3e50; /* Darker color for headings */  
+}  
+
+.team-member {  
+    background-color: white; /* White background for team member cards */  
+    padding: 15px;  
+    margin: 10px 0;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+} 
+
+/* Contact form styling */  
+.contact-form {  
+    background-color: white; /* White background for the form */  
+    padding: 15px;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 20px;  
+}  
+
+.contact-form input[type="text"],  
+.contact-form input[type="email"],  
+.contact-form textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+}  
+
+.contact-form button {  
+    padding: 10px;  
+    border: none;  
+    border-radius: 4px;  
+    background-color: #333;  
+    color: white;  
+    cursor: pointer;  
+}  
+
+.contact-form button:hover {  
+    background-color: #575757;  
+}  
+
+/* Recommendation Results */  
+.recommendation-results {  
+    background-color: white; /* White background for results */  
+    padding: 15px;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.result {  
+    padding: 10px;  
+    border-bottom: 1px solid #f0f0f0;  
+}  
+
+.result:last-child {  
+    border-bottom: none; /* Remove bottom border for last result */  
+}  
+
+
+        /* Styles for the search container */  
+        .search-container {  
+            display: flex;  
+            align-items: center;  
+            margin-top: 10px;  
+        }  
+        .search-container input[type="text"] {  
+            padding: 6px;  
+            border: none;  
+            border-radius: 4px;  
+        }  
+        .search-container button {  
+            padding: 6px;  
+            margin-left: 5px;  
+            border: none;  
+            border-radius: 4px;  
+            cursor: pointer;  
+        }  
+        .search-container button:hover {  
+            background-color: #575757;  
+            color: white;  
+        }  
+        
+        /* Result display styles */  
+        .results {  
+            margin-top: 20px;  
+            max-width: 600px;  
+            background-color: rgba(255, 255, 255, 0.8); /* Light background for results */  
+            color: #333; /* Darker text for readability */  
+            padding: 10px;  
+            border-radius: 4px;  
+        }  

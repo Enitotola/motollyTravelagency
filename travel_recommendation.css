@@ -1,7 +1,13 @@
-body{
-    background-color: #db822a;
-}
-        /* Basic styles for the navbar */  
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+    background-image: url('background-image.jpg'); /* Replace with your actual image path */  
+    background-size: cover;  
+    background-position: center;  
+    color: white;  
+}  
+
+/* Basic styles for the navbar */  
 .navbar {  
     display: flex;  
     justify-content: space-between;  
@@ -9,41 +15,40 @@ body{
     background-color: #333;  
     padding: 10px;  
 }  
+
 .navbar a {  
     color: white;  
     text-decoration: none;  
     padding: 14px 20px;  
 }  
+
 .navbar a:hover {  
     background-color: #575757;  
 }  
+
+/* Search container styling */  
 .search-container {  
     display: flex;  
     align-items: center;  
+    margin-top: 10px;  
 }  
-.search-container input[type="text"] {  
-            padding: 6px;  
-            border: none;  
-            border-radius: 4px;  
-}  
-.search-container button {  
-            padding: 6px;  
-            margin-left: 5px;  
-            border: none;  
-            border-radius: 4px;  
-            cursor: pointer;  
- }  
-.search-container button:hover {  
-            background-color: #575757;  
-            color: white;  
-}
 
-body {  
-    margin: 0;  
-    font-family: Arial, sans-serif;  
-    background-image: url('background-image.jpg'); /* Replace with your image path */  
-    background-size: cover;  
-    background-position: center;  
+.search-container input[type="text"] {  
+    padding: 6px;  
+    border: none;  
+    border-radius: 4px;  
+}  
+
+.search-container button {  
+    padding: 6px;  
+    margin-left: 5px;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+}  
+
+.search-container button:hover {  
+    background-color: #575757;  
     color: white;  
 }  
 
@@ -66,44 +71,19 @@ body {
     max-width: 600px; /* Max width for the intro box */  
 }  
 
-h1 {  
+h1, h2 {  
+    color: #2c3e50; /* Darker color for headings */  
     margin-bottom: 20px;  
 }  
 
-/* Styles for the search container */  
-.search-container {  
-    display: flex;  
-    align-items: center;  
-    margin-top: 10px;  
-}  
-.search-container input[type="text"] {  
-    padding: 6px;  
-    border: none;  
-    border-radius: 4px;  
-}  
-.search-container button {  
-    padding: 6px;  
-    margin-left: 5px;  
-    border: none;  
-    border-radius: 4px;  
-    cursor: pointer;  
-}  
-.search-container button:hover {  
-    background-color: #575757;  
-    color: white;  
-}
-
-h1, h2 {  
-    color: #2c3e50; /* Darker color for headings */  
-}  
-
+/* Team member styling */  
 .team-member {  
     background-color: white; /* White background for team member cards */  
     padding: 15px;  
     margin: 10px 0;  
     border-radius: 5px;  
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
-} 
+}  
 
 /* Contact form styling */  
 .contact-form {  
@@ -154,36 +134,7 @@ h1, h2 {
     border-bottom: none; /* Remove bottom border for last result */  
 }  
 
-
-        /* Styles for the search container */  
-        .search-container {  
-            display: flex;  
-            align-items: center;  
-            margin-top: 10px;  
-        }  
-        .search-container input[type="text"] {  
-            padding: 6px;  
-            border: none;  
-            border-radius: 4px;  
-        }  
-        .search-container button {  
-            padding: 6px;  
-            margin-left: 5px;  
-            border: none;  
-            border-radius: 4px;  
-            cursor: pointer;  
-        }  
-        .search-container button:hover {  
-            background-color: #575757;  
-            color: white;  
-        }  
-        
-        /* Result display styles */  
-        .results {  
-            margin-top: 20px;  
-            max-width: 600px;  
-            background-color: rgba(255, 255, 255, 0.8); /* Light background for results */  
-            color: #333; /* Darker text for readability */  
-            padding: 10px;  
-            border-radius: 4px;  
-        }  
+/* Background color for the overall body */  
+body {  
+    background-color: #db822a; /* Fallback background color */  
+}

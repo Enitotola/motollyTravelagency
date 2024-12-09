@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motolly Travel Recommendation</title>
-    <link rel="stylesheet" href="./travel_recommendation.css">
-</head>
-<body>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Motolly Travel Recommendation</title>  
+    <link rel="stylesheet" href="./travel_recommendation.css">  
+</head>  
+<body>  
     
     <div class="navbar">  
         <a href="index.html">Home</a>  
@@ -17,7 +17,7 @@
             <button onclick="executeSearch()">Search</button>  
             <button onclick="resetSearch()">Reset</button>  
         </div>  
-    </div>
+    </div>  
     
     <div class="container">  
         <div class="intro">  
@@ -55,28 +55,28 @@
             <p>Position: Marketing Manager</p>  
             <p>Mark is passionate about connecting our services with clients and oversees all marketing efforts and strategies.</p>  
         </div>  
-          
     </div>  
 
     <div class="container">  
-        <h1>Contact Us</h1>  
-        <div class="contact-form">  
-            <h2>Get in Touch</h2>  
-            <form id="contactForm">  
-                <input type="text" id="name" placeholder="Your Name" required>  
-                <input type="email" id="email" placeholder="Your Email" required>  
-                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>  
-                <button type="submit">Send Message</button>  
-            </form>  
-        </div>  
-
+        <section>  
+            <h1>Contact Us</h1>  
+            <div class="contact-form">  
+                <h2>Get in Touch</h2>  
+                <form id="contactForm">  
+                    <input type="text" id="name" placeholder="Your Name" required>  
+                    <input type="email" id="email" placeholder="Your Email" required>  
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>  
+                    <button type="submit">Send Message</button>  
+                </form>  
+            </div>  
+        </section>  
+        
         <h2>Recommendation Results</h2>  
         <div class="recommendation-results" id="resultsContainer">  
             <div class="result">No recommendations available.</div> <!-- Placeholder for results -->  
         </div>  
     </div>  
 
-
-    <script src="./travel_recommendation.js"></script>
-</body>
+    <script src="./travel_recommendation.js"></script>  
+</body>  
 </html>
